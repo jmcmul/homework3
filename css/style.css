@@ -1,0 +1,65 @@
+body{font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    color: black;
+    padding-top: 15px;
+    background-color: #dddddd;
+    background-image: url(../images/pidgeon-background.jpg);
+    background-repeat: no-repeat;}
+    
+h1{font-size: 2em;
+   line-height: 1.5;
+   color: #c12258;}
+
+a{font-size:18px;
+color: #c12258;
+text-decoration: underline;}
+
+*:focus{border: 1px solid red;} 
+
+table{border: 2px solid black;
+border-radius:10px;
+border-collapse: separate;
+border-spacing: 0;}
+
+th.colhead{width: 150px;
+   padding:10px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #7e0830;}
+
+td{text-align: center;
+    border-bottom: 2px solid black;
+    padding: 15px;} 
+
+th{border-bottom:2px solid black;}
+
+tr:nth-child(even){background-color: #dddddd;}
+
+tr:hover{background-color: #fab9cf;}
+
+th.colhead:first-child{border-top-left-radius:10px;}
+
+th.colhead:last-child{border-top-right-radius: 10px;}
+
+tr:last-of-type td:last-of-type{border-bottom-right-radius: 10px;}
+
+tr:last-of-type th:last-of-type{border-bottom-left-radius: 10px;}
+
+footer{color: white;
+background-color: black;
+text-align: center;
+height: 60px;
+width: 100%;
+position: fixed;
+bottom: 0;
+left: 0;}
+
+
+
+
+
+
+
+
+
