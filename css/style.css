@@ -44,7 +44,7 @@ th.colhead:last-child{border-top-right-radius: 10px;}
 
 tr:last-of-type td:last-of-type{border-bottom-right-radius: 10px;}
 
-tr:last-of-type th:last-of-type{border-bottom-left-radius: 10px;}
+tr:last-of-type th.rowhead:last-of-type{border-bottom-left-radius: 10px;}
 
 footer{color: white;
 background-color: black;
